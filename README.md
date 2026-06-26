@@ -1,8 +1,6 @@
 # Employee Attrition Dashboard (Power BI)
 
-This is a Power BI project I built while learning the tool. I used the IBM HR Analytics dataset (1,470 employees) to look into why people leave a company and which groups are most likely to leave.
-
-I am still new to Power BI. I had used it a bit through tutorials before this, but this was my first time building something on my own from a raw dataset, all the way through to a finished dashboard. I wanted a project that would actually push me, not something too easy, so I tried to go a bit deeper than just making a few charts.
+This is a Power BI project that looks into why employees leave a company and which groups are most likely to leave, using the IBM HR Analytics dataset (1,470 employees). The goal was to go a bit deeper than just making a few charts, and actually dig into a specific question with real evidence behind it.
 
 ## What I was trying to answer
 
