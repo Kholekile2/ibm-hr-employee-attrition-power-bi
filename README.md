@@ -1,23 +1,17 @@
 # Employee Attrition Dashboard (Power BI)
 
-This project looks into whether employee attrition at a company is a broad problem or something concentrated in specific groups, since the answer changes what a company should actually do about it. It uses the IBM HR Analytics dataset of 1,470 employees, and the analysis was built in Power BI.
+This project investigates whether employee attrition at a company is a broad problem or something concentrated in specific groups, since the answer changes what a company should actually do about it. It uses the IBM HR Analytics dataset of 1,470 employees, and the analysis was built in Power BI.
 
-The reason the question matters is that a company treating attrition as a general problem will respond very differently to one that knows exactly where it is concentrated. This project follows the evidence to find out which one is actually true here.
+A company treating attrition as a general problem will respond very differently to one that knows exactly where it is concentrated. This project follows the evidence to find out which one is actually true here.
 
 An interactive Power BI file is included in this repo.
 
 ## Executive Summary
 
-- **Attrition rate: 16%** (237 of 1,470 employees)
-- **Retention rate: 84%**
-- **231 employees currently match the highest risk profile** (0 to 5 years tenure, working overtime)
-- **Estimated cost of attrition: 1.70M**, based on an average replacement cost of 1.5 times monthly income per departure. This is an estimate, not a figure pulled directly from company data, and the multiplier can be adjusted depending on how conservative a company wants to be
-- **Sales Representative is the single highest risk role**, at 40% attrition against the 16% company average
-- **Overtime is the strongest factor found**, tripling attrition rate across almost every group tested
 
 Below is the Executive Overview page from the dashboard, and each finding is explored in more detail underneath.
 
-![Executive Overview](images/01_executive_overview.png.png)
+![Executive Overview](https://claude.ai/chat/images/01_executive_overview.png)
 
 ## Where Attrition Is Concentrated
 
@@ -25,7 +19,7 @@ Looking at department alone, Sales sits at 21%, HR at 19%, and R&D at 14%. That 
 
 ## Risk Drivers: Overtime, Satisfaction, and Tenure
 
-![Risk Drivers](images/02_risk_drivers.png.png)
+![Risk Drivers](https://claude.ai/chat/images/02_risk_drivers.png)
 
 Overtime is the strongest driver of attrition in this dataset. Company wide, employees working overtime have a 31% attrition rate, compared to 10% for those who do not, roughly three times higher. Within Sales Representatives specifically, the gap is even sharper: 66.7% for those working overtime against 28.8% for those who are not.
 
@@ -35,13 +29,13 @@ New employees working overtime are the highest risk group in the company. Employ
 
 ## Compensation
 
-![Compensation](images/03_compensation.png)
+![Compensation](https://claude.ai/chat/images/03_compensation.png)
 
 A real pay gap exists between employees who left and those who stayed, even within the same role. Company wide, employees who left earned about 30% less on average than those who stayed. That gap could partly be explained by junior roles simply paying less and turning over more for unrelated reasons, so this was checked again using only Sales Representatives, where everyone holds the same job title. The gap was still there, just smaller, at 15.5%, which suggests pay itself is a real factor, not just a byproduct of job level.
 
 ## Sales Rep Spotlight
 
-![Sales Rep Spotlight](images/04_sales_rep_spotlight.png)
+![Sales Rep Spotlight](https://claude.ai/chat/images/04_sales_rep_spotlight.png)
 
 Since Sales Representative came out as the highest risk role across almost every part of this analysis, it gets its own page pulling those numbers together in one place: 40% attrition overall, 66.7% when overtime is involved, and a 15.5% pay gap between those who left and those who stayed within the role.
 
@@ -68,6 +62,3 @@ Power BI Desktop, using Power Query for data preparation and DAX for the measure
 
 ## Files in This Repo
 
-- `IBM_HR_Analytics.pbix` – the Power BI file
-- `Employee_Attrition_Report.docx` – a written version of this same analysis
-- `images/` – screenshots of the four main dashboard pages
