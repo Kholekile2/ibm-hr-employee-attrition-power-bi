@@ -17,7 +17,7 @@ An interactive Power BI file is included in this repo.
 
 Below is the Executive Overview page from the dashboard, and each finding is explored in more detail underneath.
 
-![Executive Overview](https://claude.ai/chat/images/01_executive_overview.png)
+![Executive Overview](images/01_executive_overview.png.png)
 
 ## Where Attrition Is Concentrated
 
@@ -25,7 +25,7 @@ Looking at department alone, Sales sits at 21%, HR at 19%, and R&D at 14%. That 
 
 ## Risk Drivers: Overtime, Satisfaction, and Tenure
 
-![Risk Drivers](https://claude.ai/chat/images/02_risk_drivers.png)
+![Risk Drivers](images/02_risk_drivers.png.png)
 
 Overtime is the strongest driver of attrition in this dataset. Company wide, employees working overtime have a 31% attrition rate, compared to 10% for those who do not, roughly three times higher. Within Sales Representatives specifically, the gap is even sharper: 66.7% for those working overtime against 28.8% for those who are not.
 
@@ -35,13 +35,13 @@ New employees working overtime are the highest risk group in the company. Employ
 
 ## Compensation
 
-![Compensation](https://claude.ai/chat/images/03_compensation.png)
+![Compensation](images/03_compensation.png)
 
 A real pay gap exists between employees who left and those who stayed, even within the same role. Company wide, employees who left earned about 30% less on average than those who stayed. That gap could partly be explained by junior roles simply paying less and turning over more for unrelated reasons, so this was checked again using only Sales Representatives, where everyone holds the same job title. The gap was still there, just smaller, at 15.5%, which suggests pay itself is a real factor, not just a byproduct of job level.
 
 ## Sales Rep Spotlight
 
-![Sales Rep Spotlight](https://claude.ai/chat/images/04_sales_rep_spotlight.png)
+![Sales Rep Spotlight](images/04_sales_rep_spotlight.png)
 
 Since Sales Representative came out as the highest risk role across almost every part of this analysis, it gets its own page pulling those numbers together in one place: 40% attrition overall, 66.7% when overtime is involved, and a 15.5% pay gap between those who left and those who stayed within the role.
 
